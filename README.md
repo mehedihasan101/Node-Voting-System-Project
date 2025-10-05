@@ -62,7 +62,7 @@ An **admin** manages the entire process, including adding, updating, and deletin
 ### 🔹 **Voting**
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
-| `GET` | `/candidate` | View list of all candidates |
+| `GET` | `/candidate/count ` | View list of all candidates and their party name |
 | `POST` | `/candidate/vote/:candidateId` | Vote for a specific candidate (only once) |
 
 ---
